@@ -104,3 +104,30 @@ nav{
     border-radius: 5px;
 }
 /* banner section styles ends here */
+
+.grid-container{
+    display: flex;
+    border: 1px solid red;
+    max-width: 1050px;
+    margin: 0 auto 0;
+    min-height: 400px;
+}
+
+.product-title{
+    text-align: center;
+}
+.single-product{
+    width: 30%;
+    border: 1px solid green;
+}
+.single-product img{
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+.product-icon-name-container{
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
