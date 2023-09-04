@@ -13,4 +13,22 @@
         width: 100%;
         margin-bottom: 10px;
     }
+    /* nav responsive ends here */
+
+    .banner-container{
+        flex-direction: column;
+    }
+    .banner-text, .banner-img{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .banner-text h1{
+        font-size: 30px;
+    }
+    .banner-text p{
+        font-size: 25px;
+    }
+    .fa-brands{
+        font-size: 30px;
+    }
 }
